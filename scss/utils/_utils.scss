@@ -1,0 +1,10 @@
+.clearfix {
+  clear: both;
+  overflow: auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}

@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+::-moz-selection {
+  color: $white;
+  background: $primary-color;
+}
+
+::selection {
+  color: $white;
+  background: $primary-color;
+}
+
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+
+  @include sm {
+    font-size: 50%;
+  }
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: $font;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  position: relative;
+}
+
+body.noScroll {
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1340px;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 400;
+}
