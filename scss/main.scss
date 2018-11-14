@@ -1,8 +1,7 @@
 @import "abstracts/variables";
 @import "abstracts/mixins";
-@import "abstracts/utils";
 
 @import "utils/utils";
-@import "normalize/utils";
+@import "utils/normalize";
 
 @import "components/index";
