@@ -4,11 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "node-sass ./scss/main.scss ./css/style.css -w --output-style compressed"
+    "compile": "node-sass ./scss/main.scss ./css/style.css -w",
+    "minify": "node-sass ./scss/main.scss ./css/style.min.css -w --output-style compressed",
+    "watch": "concurrently \"npm run compile\" \"npm run minify\""
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-sass": "^4.9.3"
+    "concurrently": "^4.0.1",
+    "cssnano": "^4.1.7",
+    "node-sass": "^4.9.3",
+    "postcss-cli": "^6.0.1"
   }
 }

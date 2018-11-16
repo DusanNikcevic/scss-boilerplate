@@ -1,7 +1,10 @@
+@import "utils/normalize";
+
 @import "abstracts/variables";
 @import "abstracts/mixins";
 
 @import "utils/utils";
-@import "utils/normalize";
+@import "utils/fonts";
+@import "utils/grid";
 
 @import "components/index";

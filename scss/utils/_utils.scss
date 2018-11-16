@@ -1,3 +1,44 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+::-moz-selection {
+  color: $white;
+  background: $cl-p;
+}
+
+::selection {
+  color: $white;
+  background: $cl-p;
+}
+
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+
+  @include sm {
+    font-size: 50%;
+  }
+}
+
+body {
+  font-weight: 400;
+  line-height: 1.7;
+  color: $font;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  position: relative;
+}
+
+body.noScroll {
+  overflow: hidden;
+}
+
 .clearfix {
   clear: both;
   overflow: auto;
@@ -7,4 +48,107 @@
   content: "";
   clear: both;
   display: table;
+}
+
+// POSITION
+
+.p-r {
+  position: relative;
+}
+
+.p-a {
+  position: absolute;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.top-50 {
+  top: 50%;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.bottom-50 {
+  bottom: 50%
+}
+
+.left-0 {
+  left: 0;
+}
+
+.left-50 {
+  left: 50%;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.right-50 {
+  right: 50%;
+}
+
+// TEXT ALIGN
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+//CENTER ELEMENT HORIZONTALY
+
+.center-margin {
+  margin: 0 auto;
+}
+
+.center-r-h {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.center-a-h {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+//CENTER ELEMENT VERTICALLY
+
+.center-r-v {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.center-a-v {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+//CENTER ELEMENT BOTH
+.center-r-b {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center-a-b {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
