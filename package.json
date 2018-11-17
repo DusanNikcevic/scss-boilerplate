@@ -7,7 +7,8 @@
     "compile": "node-sass ./scss/main.scss ./css/style.css -w",
     "compile:min": "node-sass ./scss/main.scss ./css/style.min.css -w --output-style compressed",
     "prefx": "postcss --use autoprefixer -b \"last 10 versions\" ./css/style.css -o ./css/style.css --no-map -w",
-    "prefx:min": "postcss --use autoprefixer -b \"last 10 versions\" ./css/style.min.css -o ./css/style.min.css --no-map -w"
+    "prefx:min": "postcss --use autoprefixer -b \"last 10 versions\" ./css/style.min.css -o ./css/style.min.css --no-map -w",
+    "build:compile": "node-sass ./scss/main.scss ./css/style.css && node-sass ./scss/main.scss ./css/style.min.css --output-style compressed"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +17,7 @@
     "concurrently": "^4.0.1",
     "cssnano": "^4.1.7",
     "node-sass": "^4.9.3",
+    "npm-run-all": "^4.1.3",
     "postcss": "^7.0.5",
     "postcss-cli": "^6.0.1"
   }
