@@ -195,14 +195,38 @@ body.noScroll {
 .p-a {
   position: absolute; }
 
+.p-f {
+  position: fixed; }
+
 .top-0 {
   top: 0; }
+
+.top-10 {
+  top: 10%; }
+
+.top-20 {
+  top: 20%; }
+
+.top-30 {
+  top: 30%; }
+
+.top-40 {
+  top: 40%; }
 
 .top-50 {
   top: 50%; }
 
-.bottom-0 {
-  bottom: 0; }
+.bottom-10 {
+  bottom: 10%; }
+
+.bottom-20 {
+  bottom: 20%; }
+
+.bottom-30 {
+  bottom: 30%; }
+
+.bottom-40 {
+  bottom: 40%; }
 
 .bottom-50 {
   bottom: 50%; }
@@ -241,6 +265,11 @@ body.noScroll {
   left: 50%;
   transform: translateX(-50%); }
 
+.center-f-h {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%); }
+
 .center-r-v {
   position: relative;
   top: 50%;
@@ -248,6 +277,11 @@ body.noScroll {
 
 .center-a-v {
   position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.center-f-v {
+  position: fixed;
   top: 50%;
   transform: translateY(-50%); }
 
@@ -259,6 +293,12 @@ body.noScroll {
 
 .center-a-b {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.center-f-b {
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); }

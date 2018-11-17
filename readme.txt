@@ -86,6 +86,8 @@ Pozicija Elemenata:
 
 .p-a - position: absolute;
 
+.p-f - position: fixed;
+
 .top-0 - top:0;
 .top-50 - top:50%;
 
@@ -108,6 +110,8 @@ Horizontalno:
 
 .center-a-h - absolute centriranje *left:50%; transform: translateX(-50%); - koristiti sa "top" klasama
 
+.center-f-h - fixed centriranje *left:50%; transform: translateX(-50%); - koristiti sa "top" klasama
+
 
 Vertikalno:
 
@@ -115,12 +119,16 @@ Vertikalno:
 
 .center-a-v - absolute centriranje *top:50%; transform: translateY(-50%); - koristiti sa "left" ili "right" klasama
 
+.center-f-v - fixed centriranje *top:50%; transform: translateY(-50%); - koristiti sa "left" ili "right" klasama
+
 
 centriranje:
 
 .center-r-b - relativno centriranje *top:50%;left50%; transform: translate(-50%,-50%);
 
 .center-a-b - absolute centriranje *top:50%;left50%; transform: translate(-50%,-50%);
+
+.center-f-b - fixed centriranje *top:50%;left50%; transform: translate(-50%,-50%);
 
 Margins:
 
