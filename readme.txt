@@ -192,3 +192,7 @@ BACKGROUND
 .bg-primary - background-color: primarna
 .bg-secondary - background-color: primarna
 .bg-tertiary - background-color: primarna
+
+.bg-lg-1 - background-color: #eee
+.bg-lg-2 - background-color: #ccc
+.bg-lg-3 - background-color: #999
