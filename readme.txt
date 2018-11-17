@@ -122,3 +122,22 @@ centriranje:
 
 .center-a-b - absolute centriranje *top:50%;left50%; transform: translate(-50%,-50%);
 
+Margins:
+
+.mt - margin-top
+.mr - margin-right
+.mb - margin-bottom
+.ml - margin-left
+
+format klase: .mt-br pixela (.mt-5) *relative units koristeni
+
+Padding:
+
+.pt - padding-top
+.pr - padding-right
+.pb - padding-bottom
+.pl - padding-left
+
+format klase: .pt-br pixela (.pt-5) *relative units koristeni
+
+*relative units koristeni
