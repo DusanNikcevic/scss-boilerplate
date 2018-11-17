@@ -1,14 +1,17 @@
 /**Primary Color*/
 $cl-p: #003e6c;
+// Automatsko mijenjanje gore definisane boje
 $cl-p-d: darken($cl-p, 10%);
 $cl-p-l: lighten($cl-p, 10%);
 
 /**Secondary Color*/
 $cl-s: #ee272e;
+// Automatsko mijenjanje gore definisane boje
 $cl-s-d: darken($cl-s, 10%);
 $cl-s-l: lighten($cl-s, 10%);
 /**Tertiary Color*/
 $cl-t: #ff5a19;
+// Automatsko mijenjanje gore definisane boje
 $cl-t-d: darken($cl-t, 10%);
 $cl-t-l: lighten($cl-t, 10%);
 

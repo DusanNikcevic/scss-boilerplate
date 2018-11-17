@@ -1,4 +1,14 @@
 SCSS
+
+Za koriscenje boja (primarna, sekundarna, tercijarna), neophodno izmjeniti file scss/abstracts/_variables.scss tako da prilagodite boje projektu.
+
+Kompajliranje scss fajlova nakon izmjene boja:
+
+1. Instalirati scripte tako sto cete otvoriti terminal/cmd u ovom folderu pokrenuti "npm install"
+
+2. Nakon sto je instalacija neophodnih package-a zavrsena, u terminalu/cmd pokrenuti scriptu "npm run build"
+
+(neophodno je imati node.js i node package manager(npm). Dovoljno je sa zvanicnog sajta instalirati node.js, npm je included u default instalaciji)
 ______________________________________________________
 
 ABSTRACTS
@@ -145,7 +155,40 @@ Padding:
 .pr - padding-right
 .pb - padding-bottom
 .pl - padding-left
+.pa - padding all
+.ptb - padding-top, padding-bottom
+.prl - padding-left, padding-right
 
 format klase: .pt-br pixela (.pt-5) *relative units koristeni
 
 *relative units koristeni
+
+...................................
+
+BORDER RADIUS
+
+.br-r- od 1 do 20 -- (br-r-20) - border-radius:20px;
+
+.....................................
+
+BUTTON
+
+.btn - outline:none, text-decoration:none
+
+.btn-primary - padding:.5rem 2rem background-color: primary color - default hover 10% tamnija boja
+.btn-secondary - padding:.5rem 2rem background-color: secondary color - default hover 10% tamnija boja
+.btn-tertiary - padding:.5rem 2rem background-color: tertiary color - default hover 10% tamnija boja
+
+........................................
+
+TRANSITIONS
+
+.transition- od 1 do 10 - 1=0.1s, 10=1s
+
+.......................................
+
+BACKGROUND
+
+.bg-primary - background-color: primarna
+.bg-secondary - background-color: primarna
+.bg-tertiary - background-color: primarna

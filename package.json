@@ -1,11 +1,11 @@
 {
   "name": "scss-boilerplate",
-  "version": "1.0.0",
+  "version": "0.1.2",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile": "node-sass ./scss/main.scss ./css/style.css -w",
-    "compile:min": "node-sass ./scss/main.scss ./css/style.min.css -w --output-style compressed",
+    "watch": "node-sass ./scss/main.scss ./css/style.css -w",
+    "watch:min": "node-sass ./scss/main.scss ./css/style.min.css -w --output-style compressed",
     "prefx": "postcss --use autoprefixer -b \"last 10 versions\" ./css/style.css -o ./css/style.css --no-map",
     "prefx:min": "postcss --use autoprefixer -b \"last 10 versions\" ./css/style.min.css -o ./css/style.min.css --no-map",
     "build:compile": "node-sass ./scss/main.scss ./css/style.css && node-sass ./scss/main.scss ./css/style.min.css --output-style compressed",
