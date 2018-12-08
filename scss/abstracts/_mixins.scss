@@ -53,7 +53,7 @@ $screen-xl-min: 1200px;
 }
 
 @mixin nonHover {
-  @media not all and (hover: none) {
+  @media (hover: none) {
     @content;
   }
 }
