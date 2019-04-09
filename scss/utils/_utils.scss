@@ -9,7 +9,6 @@ html {
   }
 }
 
-
 *,
 *::before,
 *::after {
@@ -27,8 +26,6 @@ html {
   color: $white;
   background: $cl-p;
 }
-
-
 
 body {
   font-weight: 400;
@@ -108,7 +105,7 @@ body.noScroll {
 }
 
 .bottom-50 {
-  bottom: 50%
+  bottom: 50%;
 }
 
 .left-0 {
@@ -209,12 +206,10 @@ body.noScroll {
 
 //MARGINS
 
-
-
 //top
 
 .mt-5 {
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 .mt-10 {
@@ -255,7 +250,7 @@ body.noScroll {
 
 //right
 .mr-5 {
-  margin-right: .5rem;
+  margin-right: 0.5rem;
 }
 
 .mr-10 {
@@ -297,7 +292,7 @@ body.noScroll {
 //botom
 
 .mb-5 {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .mb-10 {
@@ -339,7 +334,7 @@ body.noScroll {
 //left
 
 .ml-5 {
-  margin-left: .5rem;
+  margin-left: 0.5rem;
 }
 
 .ml-10 {
@@ -380,12 +375,10 @@ body.noScroll {
 
 //Padding
 
-
-
 //top
 
 .pt-5 {
-  padding-top: .5rem;
+  padding-top: 0.5rem;
 }
 
 .pt-10 {
@@ -426,7 +419,7 @@ body.noScroll {
 
 //right
 .pr-5 {
-  padding-right: .5rem;
+  padding-right: 0.5rem;
 }
 
 .pr-10 {
@@ -468,7 +461,7 @@ body.noScroll {
 //botom
 
 .pb-5 {
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
 }
 
 .pb-10 {
@@ -510,7 +503,7 @@ body.noScroll {
 //left
 
 .pl-5 {
-  padding-left: .5rem;
+  padding-left: 0.5rem;
 }
 
 .pl-10 {
@@ -552,7 +545,7 @@ body.noScroll {
 //All
 
 .pa-5 {
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .pa-10 {
@@ -594,8 +587,8 @@ body.noScroll {
 //Top Bottom
 
 .ptb-5 {
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .ptb-10 {
@@ -646,8 +639,8 @@ body.noScroll {
 //Right Left
 
 .prl-5 {
-  padding-left: .5rem;
-  padding-right: .5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .prl-10 {
@@ -816,7 +809,6 @@ body.noScroll {
   background-color: $cl-s-d;
 }
 
-
 .btn-tertiary:link,
 .btn-tertiary:visited,
 .btn-tertiary:hover,
@@ -832,39 +824,39 @@ body.noScroll {
 ////TRANSITIONS
 
 .transition-1 {
-  transition: all .1s;
+  transition: all 0.1s;
 }
 
 .transition-2 {
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
 .transition-3 {
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .transition-4 {
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .transition-5 {
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .transition-6 {
-  transition: all .6s;
+  transition: all 0.6s;
 }
 
 .transition-7 {
-  transition: all .7s;
+  transition: all 0.7s;
 }
 
 .transition-8 {
-  transition: all .8s;
+  transition: all 0.8s;
 }
 
 .transition-9 {
-  transition: all .9s;
+  transition: all 0.9s;
 }
 
 .transition-10 {
