@@ -69,3 +69,9 @@ $screen-xl-min: 1200px;
     @content;
   }
 }
+
+@mixin safari {
+  @supports (-webkit-marquee-repetition: infinite) and (object-fit: fill) {
+    @content;
+  }
+}
